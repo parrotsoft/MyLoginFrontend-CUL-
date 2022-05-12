@@ -1,0 +1,28 @@
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="https://ul.edu.co/uleduco/images/logo/logo_cul_2015.png" alt="" width="200" class="d-inline-block align-text-top">
+        </a>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+        <div class="col text-center">
+            <h1>Bienvenido al Login con JWT</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="d-grid gap-1">
+                <button class="btn btn-primary btn-" (click)="onCerrarSesion()">Cerrar sesión</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row mt-4">
+        <div class="col">
+            <h3>Usuario : {{ datosUsuario?.usuario }}</h3>
+            <h3>Nombre : {{ datosUsuario?.nombre }}</h3>
+        </div>
+    </div>
+</div>
